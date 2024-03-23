@@ -117,7 +117,7 @@ model.fit(X_train_scaled ,y_train_onehot, epochs=8,batch_size=128, validation_da
 metrics = pd.DataFrame(model.history.history)
 metrics.head()
 
-print("DEVADARSHAN A S 2122221100074")
+print("DEVADARSHAN A S 212222110007")
 metrics[['accuracy','val_accuracy']].plot()
 
 print("DEVADARSHAN A S 212222110007")
